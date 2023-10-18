@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sabor Solitário</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sabor Solitário</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#restaurants">Restaurantes</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>O Sabor Solitário é uma iniciativa dedicada a ajudar pessoas que enfrentam a fome, conectando restaurantes dispostos a doar comida com quem mais precisa.</p>
+        </div>
+    </section>
+
+    <section id="restaurants" class="section">
+        <div class="container">
+            <h2>Restaurantes Parceiros</h2>
+            <p>Se você é um restaurante interessado em ajudar, por favor, preencha o formulário abaixo:</p>
+            <form id="restaurant-form">
+                <label for="restaurant-name">Nome do Restaurante:</label>
+                <input type="text" id="restaurant-name" name="restaurant-name" required>
+
+                <label for="restaurant-address">Endereço:</label>
+                <input type="text" id="restaurant-address" name="restaurant-address" required>
+
+                <label for="restaurant-phone">Telefone:</label>
+                <input type="tel" id="restaurant-phone" name="restaurant-phone" required>
+
+                <button type="submit">Cadastrar Restaurante</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato conosco: <br> Email: contato@saborsolitario.com <br> Telefone: (31) 98371-2164</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Sabor Solitário. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
